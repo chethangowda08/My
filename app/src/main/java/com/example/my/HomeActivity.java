@@ -19,7 +19,7 @@ import android.widget.Button;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener
 {
-    Button bookButton1,bookButton2,bookButton3,bookButton4,bookButton5;
+    Button bookButton1,bookButton2,bookButton3,bookButton4,bookButton5,bookButton6;
 
 
     @Override
@@ -34,6 +34,7 @@ public class HomeActivity extends AppCompatActivity
         bookButton3 =(Button) findViewById(R.id.book3);
         bookButton4 =(Button) findViewById(R.id.book4);
         bookButton5 =(Button) findViewById(R.id.book5);
+        bookButton6 =(Button) findViewById(R.id.book6);
 
 
 
@@ -83,6 +84,14 @@ public class HomeActivity extends AppCompatActivity
             }
         });
 
+        bookButton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(HomeActivity.this,PhotoActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 
