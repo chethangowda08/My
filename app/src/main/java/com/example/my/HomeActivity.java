@@ -45,7 +45,7 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(HomeActivity.this,WebActivity.class);
+                Intent intent = new Intent(HomeActivity.this,MobileActivity.class);
                 startActivity(intent);
             }
         });
