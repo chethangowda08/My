@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/calibri"
+        android:padding="8dp"
+        android:text="Photo and Videography"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="218dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="70dp"
+        android:layout_weight="100"
+        android:background="@drawable/pho"/>
+
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="88dp"
+         android:text="\n Sachirva Technology Solutions is a reality so subtle that it becomes more real than reality.There is one thing the photograph must contain, the humanity of the moment. Taking an image, freezing a moment, reveals how rich reality truly is.Photography is a way of feeling, of touching, of loving. \n"
+         android:textSize="24sp"
+        android:fontFamily="@font/calibri"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/book2"
+        android:layout_width="91dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/blue_rounded_shape"
+        android:text="BOOK"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

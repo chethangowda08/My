@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+    
+
+
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/AppTheme.Toolbar"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <EditText
+                    android:layout_width="380dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/white_rounded_shape"
+                    android:drawableLeft="@drawable/ic_search_gray_24dp"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/calibri"
+                    android:hint="What are you looking for ?"
+                    android:padding="12dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="#aeaeae"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="4dp"
+        android:fontFamily="@font/calibri"
+        android:padding="8dp"
+        android:text="Our Services"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w1"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="183dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/we">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Web Development"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book1"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w2"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/ap">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Mobile Application"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book2"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w3"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/digitalmarketingstrategy">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Digital Marketing"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book3"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w4"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/images">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Graphic UI UX Design"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book4"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w5"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/cont">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Content Writing"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book5"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w6"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/pho">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Photo and Videography"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book6"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w7"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/trelloeventmanagement">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Event Management"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book7"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/w8"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="194dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="100"
+                        android:background="@drawable/motioo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+
+                        android:layout_marginTop="200dp"
+                        android:fontFamily="@font/calibri"
+                        android:padding="8dp"
+                        android:text="Mobtion Graphics"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/book8"
+                        android:layout_width="76dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="259dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/blue_rounded_shape"
+                        android:text="BOOK"
+                        android:textColor="#ffffff" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
