@@ -7,61 +7,6 @@
     tools:context=".DigitalActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="61dp"
-
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="94dp"
-        android:fontFamily="@font/calibri"
-        android:padding="8dp"
-        android:text="Digital Marketing"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-
-    <ImageView
-        android:layout_width="385dp"
-        android:layout_height="218dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="70dp"
-        android:layout_weight="100"
-        android:background="@drawable/digitalmarketingstrategy"/>
-
-
-
-    <me.biubiubiu.justifytext.library.JustifyTextView
-        android:layout_width="400dp"
-        android:layout_height="280dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="88dp"
-        android:text="\n We at Sachirva provide Digital Marketing solutions. Sachirva is a Google Adwords Partner Agency having technical and creative experts in digital domains. Our Experts can help you to build your brand through online networking.\n"
-        android:textSize="24sp"
-        android:fontFamily="@font/calibri"
-        android:textColor="#000000"
-        />
-
-    <Button
-        android:id="@+id/book2"
-        android:layout_width="91dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="154dp"
-        android:layout_marginLeft="287dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="37dp"
-        android:background="@drawable/blue_rounded_shape"
-        android:text="BOOK"
-        android:textColor="#ffffff" />
 
 
 </RelativeLayout>
