@@ -14,14 +14,14 @@
 
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="13dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="44dp"
         android:fontFamily="@font/calibri"
         android:padding="8dp"
         android:text="Photo and Videography"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
 
@@ -34,22 +34,20 @@
         android:background="@drawable/pho"/>
 
 
-
     <me.biubiubiu.justifytext.library.JustifyTextView
         android:layout_width="400dp"
         android:layout_height="280dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="88dp"
-         android:text="\n Sachirva Technology Solutions is a reality so subtle that it becomes more real than reality.There is one thing the photograph must contain, the humanity of the moment. Taking an image, freezing a moment, reveals how rich reality truly is.Photography is a way of feeling, of touching, of loving. \n"
-         android:textSize="24sp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="108dp"
         android:fontFamily="@font/calibri"
+        android:text="\n Sachirva Technology Solutions is a reality so subtle that it becomes more real than reality.There is one thing the photograph must contain, the humanity of the moment. Taking an image, freezing a moment, reveals how rich reality truly is.Photography is a way of feeling, of touching, of loving. \n"
         android:textColor="#000000"
-        />
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/book2"
+        android:id="@+id/book6"
         android:layout_width="91dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
